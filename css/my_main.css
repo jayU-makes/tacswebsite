@@ -276,12 +276,12 @@ display: none;
   align-items: center;
   height: 100%;
   width: 100%;
-
+    flex-wrap: wrap;
 
 }
 
 .sp-im{
-
+min-width: 100px;
   margin: 50px;
 }
 
