@@ -219,7 +219,7 @@ display: none;
   height: 25px;
   position: relative;
   width: 190px;
-  right: -105px;
+  right: -100px;
   top: -100px;
   justify-content: center;
   padding: 3px;
@@ -243,6 +243,7 @@ display: none;
 
   height: 90px;
   margin: 5px;
+    margin-left: 0px;
   width: 90px;
   background-color: #f00;
 
