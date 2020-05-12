@@ -112,6 +112,10 @@ width: 100%;
       margin-left: 0px;
           margin-right: 0px;
       }
+      
+       .container{
+    padding: 0px;
+    }
   }
 
 #mbtn{
@@ -123,6 +127,7 @@ width: 100%;
 .nc{
   display: none;
 }
+  
 
 .ccal{
   display: none;
