@@ -108,6 +108,10 @@ width: 100%;
       margin-right: 0px;
     margin-left: 0px;
     }
+      .memb{
+      margin-left: 0px;
+          margin-right: 0px;
+      }
   }
 
 #mbtn{
@@ -236,6 +240,7 @@ display: none;
   right: -100px;
   top: -95px;
   margin: 5px;
+    margin-left: 0px;
   background-color: black;
 }
 
@@ -243,7 +248,6 @@ display: none;
 
   height: 90px;
   margin: 5px;
-    margin-left: 0px;
   width: 90px;
   background-color: #f00;
 
