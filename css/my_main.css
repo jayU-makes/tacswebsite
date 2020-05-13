@@ -399,3 +399,8 @@ h3 {
   padding-bottom: 10%;
 }
 
+.mname, .mlinks {
+    background: antiquewhite;
+    color: black;
+}
+
