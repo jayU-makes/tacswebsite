@@ -5,6 +5,10 @@ html{
     overflow-x: hidden;
 }
 
+.sp-im{
+  max-width: 200px;
+}
+
 .mycontent.content {
   padding-top: 6%;
 }
@@ -25,8 +29,9 @@ body{
 
 #fut{
   min-height: 100px;
-  border-top: medium solid grey;
-  background: lightblue;
+  border-top: medium solid;
+  background: grey;
+  color: black;
     
 }
 
@@ -57,10 +62,11 @@ body{
 }
 
 .omim {
-  margin: 5px;
-  height: 215px;
+  height: 225px;
   position: relative;
-overflow: hidden;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
 }
 
@@ -101,6 +107,7 @@ border-radius: 6px;
 
 .ab{
   text-align: center;
+  font-weight: bold;
 }
 
 .membo{
@@ -235,8 +242,9 @@ display: none;
   position: relative;
   /*bottom: -225px;*/
   background: #4879c9;
-  background-color:#0251d1;
-  
+  background-color:lightslategray;
+  right: 1px;
+
   display: flex;
   justify-content: center;
   color: white;
@@ -324,7 +332,7 @@ display: none;
 
 .spons{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 100%;
   flex-wrap: wrap;
@@ -361,6 +369,23 @@ min-width: 100px;
   height: 100%;
   max-width: none;
 }
+
+.tabb{
+  border-right: thin solid blue;
+
+}
+
+@media only screen and (max-width: 780px) {
+.tabb{
+  border-right: none;
+  border-bottom: thin solid blue;
+
+
+
+}
+}
+
+
 
 .content {
   height: 100%;
