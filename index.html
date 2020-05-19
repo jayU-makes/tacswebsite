@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+	<title>TACS</title>
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<!--CSS-->
+	<link rel="stylesheet" href="css/normalize_min.css">
+	<link rel="stylesheet" href="css/milligram_cmin.css" type="text/css" charset="utf-8">
+
+	<link rel="stylesheet" href="css/gridly.min.css" type="text/css" charset="utf-8">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--JS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+	<!--CUSTOM CSS-->
+	<link rel="stylesheet" href="css/my_main.css">
+</head>
+
+<body id="home">
+	<div id="onel"></div>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #132fa1;">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#landing"
+				style="color: #fff478; font-size: large;">{TACS}</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#sixl"
+							style="padding-top: 10px; padding-bottom: 0;">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#twol"
+							style="padding-top: 10px; padding-bottom: 0;">Events</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#threel"
+							style="padding-top: 10px; padding-bottom: 0;">Members</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#fivel"
+							style="padding-top: 10px; padding-bottom: 0;">Sponsors</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#fourl"
+							style="padding-top: 10px; padding-bottom: 0;">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="intro" id="landing">
+		<div id='landback' class="land-back">
+			<!--animated back-->
+			<div class="anim">
+				<svg id="svgid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800">
+					<g
+     id="g112"
+     fill-rule="evenodd"
+     fill="none">
+    <path
+       style="opacity:0.7;stroke:#e84533;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path16"
+       d="m -0.22,-52.44 11.16,11.08 c 0.77,0.77 1.4,2.28 1.4,3.35 V -5 l -117.64,116.03 -85.4,84.8 a 5.45,5.45 0 0 0 -1.4,3.35 v 100.67 c 0,1.08 0.89,1.96 1.97,1.96 h 50.4 c 1.09,0 1.98,0.88 1.98,1.96 l 0.07,26.92 c 0,1.07 0.9,1.96 1.98,1.96 l 335.73,0.13 c 1.09,0 1.98,0.88 1.98,1.96 v 36.79 l -42.99,43.78 a 5.52,5.52 0 0 1 -3.37,1.4 H 123.2"
+       stroke="#9DCA40" />
+    <path
+       style="opacity:0.7;stroke:#d76835;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path20"
+       d="m 258.53,245.87 -31.7,31.48 a 5.52,5.52 0 0 1 -3.37,1.39 h -62.37 c -1.09,0 -2.6,0.62 -3.38,1.39 l -2.68,3.66 -264.59,0.02 c -1.08,0 -2.6,-0.63 -3.37,-1.4 l -47.3,-46.97 a 5.52,5.52 0 0 0 -3.37,-1.39 h -57.47 l -1.12,-34.61 c 0,-1.08 -0.63,-2.59 -1.4,-3.35 l -66.54,-65.94"
+       stroke="#E5683E" />
+    <path
+       style="opacity:0.7;stroke:#3668c1;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round"
+       id="path28"
+       stroke="#9F9FA0" />
+    <path
+       style="stroke:#d7547e;stroke-opacity:1;opacity:0.7;stroke-linejoin:round;stroke-linecap:round"
+       id="path50"
+       d="m 718.65,484.51 c 0.77,0.76 2.29,1.38 3.37,1.38 l 41.9,-0.04 c 1.08,0 2.6,-0.62 3.37,-1.39 l 62.08,-61.68 c 0.83584,-0.92383 1.32994,-2.10614 1.4,-3.35 l -0.1,-268.18 c 0,-1.08 -0.63,-2.59 -1.4,-3.35 l -99.8,-99.28 c -0.93351,-0.831592 -2.12167,-1.321663 -3.37,-1.39 H 360.62 c -1.08,0 -2.6,0.63 -3.37,1.4 L 198.28,206.3 c -0.93615,0.83368 -2.12819,1.3239 -3.38,1.39 H 65.3 c -1.08,0 -2.6,0.62 -3.37,1.39 l -36.71,36.45 c -0.835843,0.92383 -1.329943,2.10614 -1.4,3.35 v 185.1"
+       stroke="#e5683e" />
+    <path
+       style="opacity:0.7;stroke:#3668c1;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round"
+       id="path54" />
+    <path
+       style="opacity:0.7;stroke:#36d8c1;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round"
+       id="path68"
+       d="M923.43 372.6V119.09c0-1.07-.64-2.58-1.4-3.34L757.4-47.74a5.52 5.52 0 0 0-3.37-1.39H351.57c-1.09 0-2.6.63-3.38 1.4L310.5-10.3"
+       stroke="#9F83B6" />
+    <path
+       id="path152"
+       d="M 57.714983,419.21815 V 148.44969 a 3.9220643,3.9220643 112.5 0 1 1.148746,-2.77332 L 181.74671,22.793389 a 12.314103,12.314103 157.5 0 1 8.70739,-3.606717 h 560.12353 a 3.6617703,3.6617703 22.5 0 1 2.58926,1.072508 L 871.2619,138.35419"
+       style="fill:none;stroke:#dd3a2b;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path158"
+       d="M 949.48714,42.942445 V 486.45214 l -82.24519,82.24519 h -64.90576"
+       style="fill:none;stroke:#e526c1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path160"
+       d="M 86.898088,264.44264 H 274.59227 v 128.8089 L 386.38904,505.0483 v 196.12697"
+       style="fill:none;stroke:#2b682c;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path162"
+       d="M 106.24127,291.54361 H 242.48378 V 471.52508 L 459.24697,688.28827 H 960.29639 V 425.03426"
+       style="fill:none;stroke:#e82ac1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path164"
+       d="M 131.2948,165.62717 290.34396,6.5780049 h 273.78288"
+       style="fill:none;stroke:#36685f;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path166"
+       d="m 844.53425,277.61199 v 144.78607 l -57.48997,57.48997 h -185.7356 v 64.26329"
+       style="opacity:0.7;fill:none;stroke:#36d247;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    <path
+       id="path168"
+       d="M 9.4687355,655.19369 92.165644,737.8906 H 595.53562 v 42.77825 h 425.95208"
+       style="fill:none;stroke:#e36849;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path170"
+       d="m 982.28573,180.07915 v 156.30701 l 76.21197,76.21201 V 702.8996 H 840.15908"
+       style="fill:none;stroke:#d368c1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path172"
+       d="m 970.00752,206.90826 v 148.64063 l 77.16758,77.16762 V 691.55768 H 691.19937"
+       style="fill:none;stroke:#b8cc47;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path174"
+       d="M 221.38285,325.89445 V 447.252 H 117.20619 v 48.72947 l 48.94808,48.94808 h 314.46641"
+       style="opacity:0.7;fill:none;stroke:#36f0eb;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    <path
+       id="path176"
+       d="M 183.27211,597.66543 90.420004,504.81332 V 434.17718 L 79.497952,415.25964"
+       style="fill:none;stroke:#e76833;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path178"
+       d="m 165.8041,618.67364 75.46112,75.46112 h 41.67138"
+       style="fill:none;stroke:#36cdc1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path180"
+       d="m 307.47323,706.38291 17.50372,17.50372 h 161.60927"
+       style="fill:none;stroke:#366847;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path182"
+       d="M 420.30438,561.52955 523.07766,664.30283 H 796.91955"
+       style="fill:none;stroke:#3668c1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path184"
+       d="M 572.40427,651.45116 H 861.37139"
+       style="fill:none;stroke:#3668c1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path190"
+       d="m 73.04351,450.21572 v 64.42838 l 53.56237,53.56237 -37.710441,37.71044 -49.67422,-49.67422"
+       style="fill:none;stroke:#92686a;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path192"
+       d="M 594.96581,627.86712 V 555.05894 H 747.87536 L 871.1631,431.7712 V 229.24318 l 15.37236,-26.62572 v -62.22653"
+       style="fill:none;stroke:#7c30e9;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path194"
+       d="M 983.50811,679.02387 V 399.01649 L 961.72462,377.233 V 96.233839"
+       style="fill:none;stroke:#361f9d;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path196"
+       d="m 513.65058,699.21069 h 261.37133 l 50.87403,29.37213 H 1067.3388 V 407.93827"
+       style="fill:none;stroke:#b0d821;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path198"
+       d="M 616.90476,756.20662 H 1077.2445 V 321.15073"
+       style="fill:none;stroke:#c85ce4;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path200"
+       d="M 215.9066,618.79138 V 509.47677 H 347.42646 L 263.94514,425.99546 V 17.977467"
+       style="fill:none;stroke:#3668c1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path202"
+       d="m 643.66647,601.30079 h 228.63764 l 93.39608,-93.39608 v -94.00599"
+       style="fill:none;stroke:#caebc1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path204"
+       d="m 867.66766,22.89786 h 183.72814 v 44.765116 l -39.9951,39.995094 v 132.39807 h 67.4515 9.8161 v 447.18748"
+       style="fill:none;stroke:#c96838;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path206"
+       d="M 143.42453,23.149314 52.413836,114.16 23.542052,143.03179 v 48.27769 h 17.842787 v 326.40095"
+       style="fill:none;stroke:#36e1c1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path208"
+       d="M 30.100342,577.26862 163.48037,710.64865 h 112.41205"
+       style="fill:none;stroke:#e86827;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path210"
+       d="m 46.34804,726.32965 41.003293,41.00329 H 541.84259 v -47.95646 h 214.46803"
+       style="fill:none;stroke:#d537c1;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1293"
+       d="M -222.94089,781.80719 -57.034496,686.02108 V 186.10139 L -247.04625,-3.9103618"
+       style="fill:none;stroke:#e7d8e1;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1295"
+       d="M 1296.5196,781.40133 1150.1503,696.89498 V 155.60538 L 1338.0055,-32.249772"
+       style="fill:none;stroke:#ebe900;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1297"
+       d="m 1296.5166,-126.6605 h -145.753 l -32.1125,32.112459 181.2572,181.257212 V 653.38446 l 162.36,93.7386"
+       style="fill:none;stroke:#9700de;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1301"
+       d="m 1226.2714,158.10601 v 507.21891 l 218.1766,125.96434 -47.6995,82.61807 h -207.212 v -36.46576"
+       style="fill:none;stroke:#ef0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1303"
+       d="M -75.778405,865.40873 H -339.33613 l -28.30783,-49.0306 337.877355,-195.07358 V -15.449255"
+       style="fill:none;stroke:#5d004a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1305"
+       d="M -93.078929,793.48086 -161.74214,674.55268 V 255.63797 h -188.95561"
+       style="fill:none;stroke:#d579b6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1307"
+       d="m -320.54128,289.51908 h 188.06547 v 306.1625 L 43.258273,900.06194 H 1015.6255"
+       style="fill:none;stroke:#cb6245;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1309"
+       d="M 148.41125,835.04735 V 952.14524 H -327.9811"
+       style="fill:none;stroke:#f8a100;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1311"
+       d="M -96.582844,-141.75209 1.5696894,-43.599559 H 286.98368 V -188.53772"
+       style="fill:none;stroke:#d80028;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1313"
+       d="M -308.87344,54.610012 -219.67623,143.80723 21.558167,-97.427168 -59.258615,-178.24395"
+       style="fill:none;stroke:#f30000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1315"
+       d="m 378.31139,-118.59786 h 679.46681 l 318.2249,318.2249 v 780.71969"
+       style="fill:none;stroke:#00e7d3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1317"
+       d="m 538.58509,832.09002 v 103.03894 h 530.22191 38.7541 l 319.6042,-553.57073"
+       style="fill:none;stroke:#2900d6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1319"
+       d="m 300.32225,-138.47787 47.50167,47.501669 h 631.95351 v 77.155398 H 1121.2888 L 1342.7773,207.66769 V 381.29552 H 1178.3085 V 179.55287 L 1356.3048,1.5565166"
+       style="fill:none;stroke:#e922de;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1321"
+       d="M 97.634427,-74.486308 H 1086.04 V 172.91818"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1323"
+       d="M 33.904548,531.8917 H -238.83107 v 290.35843 h 122.71035 v 96.92238 h -241.51635"
+       style="fill:none;stroke:#e3d787;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+    <path
+       id="path1325"
+       d="M -270.54136,-6.863692 V 377.16572 h 90.39052 L -263.813,522.07282 V 994.6185"
+       style="fill:none;stroke:#779f86;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.7" />
+  </g></svg>
+			  </div>
+
+		</div>
+		<div class="inner">
+			<div class="mycontent content">
+			
+				<div class="con-content">
+				<h1 style="margin-bottom: 25px;">{TACS}</h1>
+				<h3 id="ix" style="margin: 75px; margin-top: 0;">The Official Student Chapter of the Association of Computing
+					Machinery @ Texas A&M University</h3>
+				<div id="sub" class="row">
+					<div class="container">
+
+
+						<form action="https://formspree.io/xdowklzg" method="POST">
+
+							<label style="display: flex;justify-content: center;">
+								Get Updates!
+							</label>
+
+							<label style="display: flex;justify-content: center;">
+								<input style="width: 60%;" placeholder="name@example.com" type="text" name="_replyto">
+							</label>
+
+						</form>
+
+					</div>
+					<div class="container">
+						<div style="display: flex;justify-content: center;width: 100%;">
+							Connect with TACS!
+						</div>
+						<div style="display: flex;justify-content: center;width: 100%;padding: 16px;">
+							<a title='Email' target='_blank' href=''><i class="fa fa-envelope"
+									style="font-size:32px; margin-right: 16px;"></i></a>
+							<a title='Slack' target='_blank' href=''><i class="fa fa-slack"
+									style="font-size:32px; margin-right: 16px;"></i></a>
+							<a title='Facebook' target='_blank' href=''><i class="fa fa-facebook"
+									style="font-size:32px; margin-right: 16px;"></i></a>
+							<a title='Instagram' target='_blank' href=''><i class="fa fa-instagram"
+									style="font-size:32px;"></i></a>
+						</div>
+					</div>
+
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="rst" class="row conta">
+		<div id="mm" class="col">
+			<div id="sixl"></div>
+			<div id="one" class="row" style="min-height: 777px;width: 95%;margin: 0 auto;">
+
+				<div class="tabb col">
+					<div class="row">
+						<div class="container">
+							<h4 class="ab">Our Mission</h4>
+							<div>
+								<p>As the student chapter of ACM, Texas A&M Computing Society serves a dual purpose. We
+									not only encourage the exploration of computing technology, but also provide
+									guidance in navigating the field of computer science. TACS hosts both industry
+									professionals and academic experts as guest speakers throughout the semester. Each
+									meeting provides unique opportunities for networking and practical learning.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tabb col">
+					<div class="row">
+						<div class="container">
+							<h4 class="ab">Meetings</h4>
+							<div>
+								<h3>Tech Talks</h3>
+								<p>Industry leaders and academics provide insight about new technology and cutting-edge
+									research. You will often have a chance to network with recruiters from renowned tech
+									companies.</p>
+								<p></p>
+
+							</div>
+							<div>
+								<h3>Workshops</h3>
+								<p>Workshops provide a chance for you to learn to use new tools, hands on. Experts will
+									guide you through the whole process step by step. We recently covered Git, Docker,
+									and Vue.js.</p>
+
+							</div>
+							<div>
+								<h3>Socials</h3>
+								<p>Game nights with TACS provide a fun study break during finals, and our course
+									scheduling socials help you optimize your next semester!</p>
+
+							</div>
+							<div>
+								<h3>Panels</h3>
+								<p>Listen to professionals and students talk about their experiences navigating through
+									challenges like graduate school or the job market.</p>
+								<p><b>Note: You don't need to be a member to attend, and all of our meetings have food!
+										Take a look at our <a style="color: blue;" href="#twol">calendar</a> for details
+										about our next meeting.</b></p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col" style="padding-left: 0;">
+					<div class="row">
+						<div class="container">
+							<h4 class="ab">Activities</h4>
+							<div>
+								<h3>The Big Event</h3>
+								<p>Volunteer with TACS for the largest one-day, student-run service project in the
+									nation. Each spring, we have the opportunity to give back to the residents of Bryan
+									and College Station by completing service projects such as yard work, window
+									washing, and painting.</p>
+							</div>
+							<div>
+								<h3>Intramural Sports</h3>
+								<p>We focus on teambuilding and friendly competition with other student organizations
+									through sports like soccer and volleyball.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+			<div id="twol" style="padding: 0;"></div>
+			<div id="two" class="row" style="min-height: 877px">
+				<div class="col">
+					<div class="content-section" id="events">
+						<div class="container">
+							<div class="row">
+								<div class="heading-section col-md-12 text-center">
+									<h2><b>Events</b></h2>
+									<h3>Join us at one of our upcoming meetings!</h3>
+									<div class="responsive-cal">
+										<iframe
+											src="https://calendar.google.com/calendar/b/3/embed?height=526&wkst=1&bgcolor=%23FFFFFF&mode=AGENDA&src=tamu.edu_ad54lcc88gu8lclb6t8h61dr40%40group.calendar.google.com&color=%23875509&ctz=America%2FChicago"
+											style="border-width:0;" width="800" height="600" frameborder="0"
+											scrolling="no"></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="threel"></div>
+			<div id="three" class="row" style="min-height: 877px;">
+				<div class="col">
+					<div class="row">
+						<div style="max-width: 150rem;" class="container">
+							<h2 style="text-align: center;margin-top: 0%;"><b>Officers</b></h2>
+							<div id="mmbc" style="display: flex;justify-content: center;flex-wrap: wrap;">
+								<div class="card" style="width: 200px; margin: 20px;">
+									<img class="card-img-top" src="img/priyanka.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title"><b>Priyanka Paul</b></h5>
+										<p class="card-text">President</p>
+										<div
+											style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+											<a title='Email' target='_blank' href='mailto:priyankapaul9@tamu.edu'><i
+													class="fa fa-envelope"
+													style="font-size:16px; margin-right: 16px;"></i></a>
+											<a title='LinkedIn' target='_blank'
+												href='https://urldefense.proofpoint.com/v2/url?u=https-3A__www.linkedin.com_in_priyanka-2Dpaul-2Da7bb81145&d=DwMFaQ&c=u6LDEWzohnDQ01ySGnxMzg&r=U3SSNb7Ucu79Mpm2Z_UNSg&m=8BmcmvtvBCr5yvAVyxfPIDsJY0PRfmreIB-TjXUt-GQ&s=7xlVwep7caKxpldlcmYZT4sTwFN5S_JGn2Xx6R6z5RU&e='><i class="fa fa-linkedin"
+													style="font-size:16px; margin-right: 16px;"></i></a>
+																					</div>
+									</div>
+								</div>
+
+								<div class="card" style="width: 200px; margin: 20px;">
+									<img class="card-img-top" src="img/AveryE.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title"><b>Avery Erwin</b></h5>
+										<p class="card-text">Vice President</p>
+										<div
+											style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+											<a title='Email' target='_blank' href='mailto:acerwin@tamu.edu'><i
+													class="fa fa-envelope"
+													style="font-size:16px; margin-right: 16px;"></i></a>
+											<a title='LinkedIn' target='_blank'
+												href='https://www.linkedin.com/in/averyerwin/'><i class="fa fa-linkedin"
+													style="font-size:16px; margin-right: 16px;"></i></a>
+											<a title='Website' target='_blank' href='https://www.averyer.win/'><i
+													class="fa fa-link" style="font-size:16px;"></i></a>
+										</div>
+									</div>
+								</div>
+
+								<div class="card" style="width: 200px; margin: 20px;">
+									<img class="card-img-top" src="img/person-placeholder.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title"><b>Joshi Chong</b></h5>
+										<p class="card-text">Treasurer</p>
+										<div
+											style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+											<a title='Email' target='_blank' href=''><i class="fa fa-envelope"
+													style="font-size:16px; margin-right: 16px;"></i></a>
+											<a title='LinkedIn' target='_blank' href=''><i class="fa fa-linkedin"
+													style="font-size:16px;"></i></a>
+										</div>
+									</div>
+								</div>
+
+								<div class="card" style="width: 200px; margin: 20px;">
+									<img class="card-img-top" src="img/person-placeholder.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title"><b>Jennifer Martin</b></h5>
+										<p class="card-text">Communications Officer</p>
+										<div
+											style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+											<a title='Email' target='_blank' href='mailto:jam77082@tamu.edu'><i class="fa fa-envelope"
+													style="font-size:16px; margin-right: 16px;"></i></a>
+											<a title='LinkedIn' target='_blank' href=''><i class="fa fa-linkedin"
+													style="font-size:16px;"></i></a>
+										</div>
+									</div>
+								</div>
+
+								<div class="card" style="width: 200px; margin: 20px;">
+									<img class="card-img-top"
+										src="img/person-placeholder.jpg"
+										alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title"><b>Jayant Singh</b></h5>
+										<p class="card-text">Webmaster</p>
+										<div
+											style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+											<a title='LinkedIn' target='_blank'
+												href='https://www.linkedin.com/in/cyberjayant'><i class="fa fa-linkedin"
+													style="font-size:16px; margin-right: 16px;"></i></a>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+							<div class="row">
+								<div style="max-width: 150rem;" class="container">
+									<h2 style="text-align: center;margin-top: 20px;"><b>Members</b></h2>
+									<div id="mmsc" style="display: flex;justify-content: center;flex-wrap: wrap;">
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Joey Chou</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:joeychou99@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Tyler Pomber</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:tyler642101@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Avery LaRue</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:avery123@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Keegan Choudhury</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:kchoudhury1@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Alan Nguyen</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:anguyen120@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+										
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Rishi Phatak</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:rishi.phatak@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Adhrik Chethan</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:adhrik_chethan@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Jacob Schmidt</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:jacobalbertschmidt@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Ryan Gonzalez</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:gonzalezpear@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card" style="width: 200px; margin: 20px;text-align: center;">
+											<div class="card-body">
+												<h5 class="card-title"><b>Joshua Salinas</b></h5>
+												<div
+													style="display: flex;justify-content: center;width: 100%;padding: 16px;padding-top: 0;">
+													<a title='Email' target='_blank' href='mailto:joshuasalinas@tamu.edu'><i class="fa fa-envelope"
+															style="font-size:16px;"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="fivel"></div>
+					<div id="five" class="row" style="min-height: 877px;">
+						<div class="container">
+							<h2 style="text-align: center;"><b>Our Sponsors</b></h2>
+							<div class="spons">
+
+								<!--insert sponsor image tags here-->
+								<img class="sp-im" src="img/microsoft.png">
+								<img class="sp-im" src="img/capital_one.png">
+								<img class="sp-im" src="img/pwc.png">
+								<img class="sp-im" src="img/paycom.png">
+								<img class="sp-im" src="img/labatt.png">
+								<img class="sp-im" src="img/cbre.png">
+								<img class="sp-im" src="img/bp.png">
+
+							</div>
+
+						</div>
+					</div>
+					<div id="fourl"></div>
+					<div id="four" class="row" style="min-height: 877px;">
+						<div class="container">
+							<div style="display: flex;justify-content: center;align-items: center;height: 100%;">
+								<form action="https://formspree.io/xknqgvze" method="POST">
+									<label>
+										Your email:
+										<input type="text" name="_replyto">
+									</label>
+									<label>
+										Your message:
+										<textarea style="height: 300px; resize: none;" name="message"></textarea>
+									</label>
+
+									<!-- your other form fields go here -->
+
+									<button type="submit">Send</button>
+									<p>Or feel free to shoot us an email at <a style="color: blue;"
+											href="mailto:tacs-officers@lists.tamu.edu">tacs-officers@lists.tamu.edu</a>
+									</p>
+								</form>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div id="fut" class="row">
+				<span class="container">
+					<br>
+					<h5 style="width: 100%;text-align: center;color: #fff478;">{TACS}</h5>
+					<p style="width: 100%;text-align: center;">© 2020-2021 Texas A&M Computing Society</p>
+					<p style="width: 100%;text-align: center;">Created by <a style="color: #fff478;"
+							href="#threel">Jayant
+							Singh</a>. Themed by <a style="color: #fff478;" href="#threel">Avery Erwin</a>.</p>
+				</div>
+
+
+			</div>
+
+
+
+		
+			<script>
+			var sw = -1;
+				var oned  = document.getElementById('one');
+				var twod = document.getElementById('two');
+				var threed = document.getElementById('three');
+				var fourd = document.getElementById('four');
+				var fived = document.getElementById('five');
+		
+				var $window = $(window);
+
+				  var i = 0;
+					function wRes(){
+					  if(!(sw===-1 || (Math.abs($(window).width() - sw)/sw)*100 > 10))
+					  {
+						return;
+					  }
+					  sw = $(window).width();
+					  console.log("called me"+i);
+					  i++;
+					  let h  = $(window).height();
+						  oned.style.minHeight = h - 45+"px";
+						  twod.style.minHeight = h-45+"px";
+						  threed.style.minHeight = h-45+"px";
+					  fourd.style.minHeight = h-45+"px";
+					  fived.style.minHeight = h-45+"px";
+					  svgRes()
+					
+					}
+					
+					
+			
+				$window.on('load',wRes);
+				window.onresize = (wRes);	
+					
+			</script>
+			<script>
+
+
+/*The MIT License
+
+Copyright (c) 2019 Julian Garnier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
+
+				!function(n,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):n.anime=e()}(this,function(){"use strict";var n={update:null,begin:null,loopBegin:null,changeBegin:null,change:null,changeComplete:null,loopComplete:null,complete:null,loop:1,direction:"normal",autoplay:!0,timelineOffset:0},e={duration:1e3,delay:0,endDelay:0,easing:"easeOutElastic(1, .5)",round:0},r=["translateX","translateY","translateZ","rotate","rotateX","rotateY","rotateZ","scale","scaleX","scaleY","scaleZ","skew","skewX","skewY","perspective","matrix","matrix3d"],t={CSS:{},springs:{}};function a(n,e,r){return Math.min(Math.max(n,e),r)}function o(n,e){return n.indexOf(e)>-1}function u(n,e){return n.apply(null,e)}var i={arr:function(n){return Array.isArray(n)},obj:function(n){return o(Object.prototype.toString.call(n),"Object")},pth:function(n){return i.obj(n)&&n.hasOwnProperty("totalLength")},svg:function(n){return n instanceof SVGElement},inp:function(n){return n instanceof HTMLInputElement},dom:function(n){return n.nodeType||i.svg(n)},str:function(n){return"string"==typeof n},fnc:function(n){return"function"==typeof n},und:function(n){return void 0===n},hex:function(n){return/(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(n)},rgb:function(n){return/^rgb/.test(n)},hsl:function(n){return/^hsl/.test(n)},col:function(n){return i.hex(n)||i.rgb(n)||i.hsl(n)},key:function(r){return!n.hasOwnProperty(r)&&!e.hasOwnProperty(r)&&"targets"!==r&&"keyframes"!==r}};function c(n){var e=/\(([^)]+)\)/.exec(n);return e?e[1].split(",").map(function(n){return parseFloat(n)}):[]}function s(n,e){var r=c(n),o=a(i.und(r[0])?1:r[0],.1,100),u=a(i.und(r[1])?100:r[1],.1,100),s=a(i.und(r[2])?10:r[2],.1,100),f=a(i.und(r[3])?0:r[3],.1,100),l=Math.sqrt(u/o),d=s/(2*Math.sqrt(u*o)),p=d<1?l*Math.sqrt(1-d*d):0,h=1,v=d<1?(d*l-f)/p:-f+l;function g(n){var r=e?e*n/1e3:n;return r=d<1?Math.exp(-r*d*l)*(h*Math.cos(p*r)+v*Math.sin(p*r)):(h+v*r)*Math.exp(-r*l),0===n||1===n?n:1-r}return e?g:function(){var e=t.springs[n];if(e)return e;for(var r=0,a=0;;)if(1===g(r+=1/6)){if(++a>=16)break}else a=0;var o=r*(1/6)*1e3;return t.springs[n]=o,o}}function f(n){return void 0===n&&(n=10),function(e){return Math.ceil(a(e,1e-6,1)*n)*(1/n)}}var l,d,p=function(){var n=11,e=1/(n-1);function r(n,e){return 1-3*e+3*n}function t(n,e){return 3*e-6*n}function a(n){return 3*n}function o(n,e,o){return((r(e,o)*n+t(e,o))*n+a(e))*n}function u(n,e,o){return 3*r(e,o)*n*n+2*t(e,o)*n+a(e)}return function(r,t,a,i){if(0<=r&&r<=1&&0<=a&&a<=1){var c=new Float32Array(n);if(r!==t||a!==i)for(var s=0;s<n;++s)c[s]=o(s*e,r,a);return function(n){return r===t&&a===i?n:0===n||1===n?n:o(f(n),t,i)}}function f(t){for(var i=0,s=1,f=n-1;s!==f&&c[s]<=t;++s)i+=e;var l=i+(t-c[--s])/(c[s+1]-c[s])*e,d=u(l,r,a);return d>=.001?function(n,e,r,t){for(var a=0;a<4;++a){var i=u(e,r,t);if(0===i)return e;e-=(o(e,r,t)-n)/i}return e}(t,l,r,a):0===d?l:function(n,e,r,t,a){for(var u,i,c=0;(u=o(i=e+(r-e)/2,t,a)-n)>0?r=i:e=i,Math.abs(u)>1e-7&&++c<10;);return i}(t,i,i+e,r,a)}}}(),h=(l={linear:function(){return function(n){return n}}},d={Sine:function(){return function(n){return 1-Math.cos(n*Math.PI/2)}},Circ:function(){return function(n){return 1-Math.sqrt(1-n*n)}},Back:function(){return function(n){return n*n*(3*n-2)}},Bounce:function(){return function(n){for(var e,r=4;n<((e=Math.pow(2,--r))-1)/11;);return 1/Math.pow(4,3-r)-7.5625*Math.pow((3*e-2)/22-n,2)}},Elastic:function(n,e){void 0===n&&(n=1),void 0===e&&(e=.5);var r=a(n,1,10),t=a(e,.1,2);return function(n){return 0===n||1===n?n:-r*Math.pow(2,10*(n-1))*Math.sin((n-1-t/(2*Math.PI)*Math.asin(1/r))*(2*Math.PI)/t)}}},["Quad","Cubic","Quart","Quint","Expo"].forEach(function(n,e){d[n]=function(){return function(n){return Math.pow(n,e+2)}}}),Object.keys(d).forEach(function(n){var e=d[n];l["easeIn"+n]=e,l["easeOut"+n]=function(n,r){return function(t){return 1-e(n,r)(1-t)}},l["easeInOut"+n]=function(n,r){return function(t){return t<.5?e(n,r)(2*t)/2:1-e(n,r)(-2*t+2)/2}}}),l);function v(n,e){if(i.fnc(n))return n;var r=n.split("(")[0],t=h[r],a=c(n);switch(r){case"spring":return s(n,e);case"cubicBezier":return u(p,a);case"steps":return u(f,a);default:return u(t,a)}}function g(n){try{return document.querySelectorAll(n)}catch(n){return}}function m(n,e){for(var r=n.length,t=arguments.length>=2?arguments[1]:void 0,a=[],o=0;o<r;o++)if(o in n){var u=n[o];e.call(t,u,o,n)&&a.push(u)}return a}function y(n){return n.reduce(function(n,e){return n.concat(i.arr(e)?y(e):e)},[])}function b(n){return i.arr(n)?n:(i.str(n)&&(n=g(n)||n),n instanceof NodeList||n instanceof HTMLCollection?[].slice.call(n):[n])}function x(n,e){return n.some(function(n){return n===e})}function M(n){var e={};for(var r in n)e[r]=n[r];return e}function w(n,e){var r=M(n);for(var t in n)r[t]=e.hasOwnProperty(t)?e[t]:n[t];return r}function k(n,e){var r=M(n);for(var t in e)r[t]=i.und(n[t])?e[t]:n[t];return r}function O(n){return i.rgb(n)?(r=/rgb\((\d+,\s*[\d]+,\s*[\d]+)\)/g.exec(e=n))?"rgba("+r[1]+",1)":e:i.hex(n)?(t=n.replace(/^#?([a-f\d])([a-f\d])([a-f\d])$/i,function(n,e,r,t){return e+e+r+r+t+t}),a=/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(t),"rgba("+parseInt(a[1],16)+","+parseInt(a[2],16)+","+parseInt(a[3],16)+",1)"):i.hsl(n)?function(n){var e,r,t,a=/hsl\((\d+),\s*([\d.]+)%,\s*([\d.]+)%\)/g.exec(n)||/hsla\((\d+),\s*([\d.]+)%,\s*([\d.]+)%,\s*([\d.]+)\)/g.exec(n),o=parseInt(a[1],10)/360,u=parseInt(a[2],10)/100,i=parseInt(a[3],10)/100,c=a[4]||1;function s(n,e,r){return r<0&&(r+=1),r>1&&(r-=1),r<1/6?n+6*(e-n)*r:r<.5?e:r<2/3?n+(e-n)*(2/3-r)*6:n}if(0==u)e=r=t=i;else{var f=i<.5?i*(1+u):i+u-i*u,l=2*i-f;e=s(l,f,o+1/3),r=s(l,f,o),t=s(l,f,o-1/3)}return"rgba("+255*e+","+255*r+","+255*t+","+c+")"}(n):void 0;var e,r,t,a}function C(n){var e=/[+-]?\d*\.?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?(%|px|pt|em|rem|in|cm|mm|ex|ch|pc|vw|vh|vmin|vmax|deg|rad|turn)?$/.exec(n);if(e)return e[1]}function B(n,e){return i.fnc(n)?n(e.target,e.id,e.total):n}function P(n,e){return n.getAttribute(e)}function I(n,e,r){if(x([r,"deg","rad","turn"],C(e)))return e;var a=t.CSS[e+r];if(!i.und(a))return a;var o=document.createElement(n.tagName),u=n.parentNode&&n.parentNode!==document?n.parentNode:document.body;u.appendChild(o),o.style.position="absolute",o.style.width=100+r;var c=100/o.offsetWidth;u.removeChild(o);var s=c*parseFloat(e);return t.CSS[e+r]=s,s}function T(n,e,r){if(e in n.style){var t=e.replace(/([a-z])([A-Z])/g,"$1-$2").toLowerCase(),a=n.style[e]||getComputedStyle(n).getPropertyValue(t)||"0";return r?I(n,a,r):a}}function D(n,e){return i.dom(n)&&!i.inp(n)&&(P(n,e)||i.svg(n)&&n[e])?"attribute":i.dom(n)&&x(r,e)?"transform":i.dom(n)&&"transform"!==e&&T(n,e)?"css":null!=n[e]?"object":void 0}function E(n){if(i.dom(n)){for(var e,r=n.style.transform||"",t=/(\w+)\(([^)]*)\)/g,a=new Map;e=t.exec(r);)a.set(e[1],e[2]);return a}}function F(n,e,r,t){var a,u=o(e,"scale")?1:0+(o(a=e,"translate")||"perspective"===a?"px":o(a,"rotate")||o(a,"skew")?"deg":void 0),i=E(n).get(e)||u;return r&&(r.transforms.list.set(e,i),r.transforms.last=e),t?I(n,i,t):i}function N(n,e,r,t){switch(D(n,e)){case"transform":return F(n,e,t,r);case"css":return T(n,e,r);case"attribute":return P(n,e);default:return n[e]||0}}function A(n,e){var r=/^(\*=|\+=|-=)/.exec(n);if(!r)return n;var t=C(n)||0,a=parseFloat(e),o=parseFloat(n.replace(r[0],""));switch(r[0][0]){case"+":return a+o+t;case"-":return a-o+t;case"*":return a*o+t}}function L(n,e){if(i.col(n))return O(n);if(/\s/g.test(n))return n;var r=C(n),t=r?n.substr(0,n.length-r.length):n;return e?t+e:t}function j(n,e){return Math.sqrt(Math.pow(e.x-n.x,2)+Math.pow(e.y-n.y,2))}function S(n){for(var e,r=n.points,t=0,a=0;a<r.numberOfItems;a++){var o=r.getItem(a);a>0&&(t+=j(e,o)),e=o}return t}function q(n){if(n.getTotalLength)return n.getTotalLength();switch(n.tagName.toLowerCase()){case"circle":return o=n,2*Math.PI*P(o,"r");case"rect":return 2*P(a=n,"width")+2*P(a,"height");case"line":return j({x:P(t=n,"x1"),y:P(t,"y1")},{x:P(t,"x2"),y:P(t,"y2")});case"polyline":return S(n);case"polygon":return r=(e=n).points,S(e)+j(r.getItem(r.numberOfItems-1),r.getItem(0))}var e,r,t,a,o}function $(n,e){var r=e||{},t=r.el||function(n){for(var e=n.parentNode;i.svg(e)&&i.svg(e.parentNode);)e=e.parentNode;return e}(n),a=t.getBoundingClientRect(),o=P(t,"viewBox"),u=a.width,c=a.height,s=r.viewBox||(o?o.split(" "):[0,0,u,c]);return{el:t,viewBox:s,x:s[0]/1,y:s[1]/1,w:u/s[2],h:c/s[3]}}function X(n,e){function r(r){void 0===r&&(r=0);var t=e+r>=1?e+r:0;return n.el.getPointAtLength(t)}var t=$(n.el,n.svg),a=r(),o=r(-1),u=r(1);switch(n.property){case"x":return(a.x-t.x)*t.w;case"y":return(a.y-t.y)*t.h;case"angle":return 180*Math.atan2(u.y-o.y,u.x-o.x)/Math.PI}}function Y(n,e){var r=/[+-]?\d*\.?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?/g,t=L(i.pth(n)?n.totalLength:n,e)+"";return{original:t,numbers:t.match(r)?t.match(r).map(Number):[0],strings:i.str(n)||e?t.split(r):[]}}function Z(n){return m(n?y(i.arr(n)?n.map(b):b(n)):[],function(n,e,r){return r.indexOf(n)===e})}function Q(n){var e=Z(n);return e.map(function(n,r){return{target:n,id:r,total:e.length,transforms:{list:E(n)}}})}function V(n,e){var r=M(e);if(/^spring/.test(r.easing)&&(r.duration=s(r.easing)),i.arr(n)){var t=n.length;2===t&&!i.obj(n[0])?n={value:n}:i.fnc(e.duration)||(r.duration=e.duration/t)}var a=i.arr(n)?n:[n];return a.map(function(n,r){var t=i.obj(n)&&!i.pth(n)?n:{value:n};return i.und(t.delay)&&(t.delay=r?0:e.delay),i.und(t.endDelay)&&(t.endDelay=r===a.length-1?e.endDelay:0),t}).map(function(n){return k(n,r)})}function z(n,e){var r=[],t=e.keyframes;for(var a in t&&(e=k(function(n){for(var e=m(y(n.map(function(n){return Object.keys(n)})),function(n){return i.key(n)}).reduce(function(n,e){return n.indexOf(e)<0&&n.push(e),n},[]),r={},t=function(t){var a=e[t];r[a]=n.map(function(n){var e={};for(var r in n)i.key(r)?r==a&&(e.value=n[r]):e[r]=n[r];return e})},a=0;a<e.length;a++)t(a);return r}(t),e)),e)i.key(a)&&r.push({name:a,tweens:V(e[a],n)});return r}function H(n,e){var r;return n.tweens.map(function(t){var a=function(n,e){var r={};for(var t in n){var a=B(n[t],e);i.arr(a)&&1===(a=a.map(function(n){return B(n,e)})).length&&(a=a[0]),r[t]=a}return r.duration=parseFloat(r.duration),r.delay=parseFloat(r.delay),r}(t,e),o=a.value,u=i.arr(o)?o[1]:o,c=C(u),s=N(e.target,n.name,c,e),f=r?r.to.original:s,l=i.arr(o)?o[0]:f,d=C(l)||C(s),p=c||d;return i.und(u)&&(u=f),a.from=Y(l,p),a.to=Y(A(u,l),p),a.start=r?r.end:0,a.end=a.start+a.delay+a.duration+a.endDelay,a.easing=v(a.easing,a.duration),a.isPath=i.pth(o),a.isColor=i.col(a.from.original),a.isColor&&(a.round=1),r=a,a})}var G={css:function(n,e,r){return n.style[e]=r},attribute:function(n,e,r){return n.setAttribute(e,r)},object:function(n,e,r){return n[e]=r},transform:function(n,e,r,t,a){if(t.list.set(e,r),e===t.last||a){var o="";t.list.forEach(function(n,e){o+=e+"("+n+") "}),n.style.transform=o}}};function R(n,e){Q(n).forEach(function(n){for(var r in e){var t=B(e[r],n),a=n.target,o=C(t),u=N(a,r,o,n),i=A(L(t,o||C(u)),u),c=D(a,r);G[c](a,r,i,n.transforms,!0)}})}function W(n,e){return m(y(n.map(function(n){return e.map(function(e){return function(n,e){var r=D(n.target,e.name);if(r){var t=H(e,n),a=t[t.length-1];return{type:r,property:e.name,animatable:n,tweens:t,duration:a.end,delay:t[0].delay,endDelay:a.endDelay}}}(n,e)})})),function(n){return!i.und(n)})}function J(n,e){var r=n.length,t=function(n){return n.timelineOffset?n.timelineOffset:0},a={};return a.duration=r?Math.max.apply(Math,n.map(function(n){return t(n)+n.duration})):e.duration,a.delay=r?Math.min.apply(Math,n.map(function(n){return t(n)+n.delay})):e.delay,a.endDelay=r?a.duration-Math.max.apply(Math,n.map(function(n){return t(n)+n.duration-n.endDelay})):e.endDelay,a}var K=0;var U,_=[],nn=[],en=function(){function n(){U=requestAnimationFrame(e)}function e(e){var r=_.length;if(r){for(var t=0;t<r;){var a=_[t];if(a.paused){var o=_.indexOf(a);o>-1&&(_.splice(o,1),r=_.length)}else a.tick(e);t++}n()}else U=cancelAnimationFrame(U)}return n}();function rn(r){void 0===r&&(r={});var t,o=0,u=0,i=0,c=0,s=null;function f(n){var e=window.Promise&&new Promise(function(n){return s=n});return n.finished=e,e}var l,d,p,h,v,g,y,b,x=(d=w(n,l=r),p=w(e,l),h=z(p,l),v=Q(l.targets),g=W(v,h),y=J(g,p),b=K,K++,k(d,{id:b,children:[],animatables:v,animations:g,duration:y.duration,delay:y.delay,endDelay:y.endDelay}));f(x);function M(){var n=x.direction;"alternate"!==n&&(x.direction="normal"!==n?"normal":"reverse"),x.reversed=!x.reversed,t.forEach(function(n){return n.reversed=x.reversed})}function O(n){return x.reversed?x.duration-n:n}function C(){o=0,u=O(x.currentTime)*(1/rn.speed)}function B(n,e){e&&e.seek(n-e.timelineOffset)}function P(n){for(var e=0,r=x.animations,t=r.length;e<t;){var o=r[e],u=o.animatable,i=o.tweens,c=i.length-1,s=i[c];c&&(s=m(i,function(e){return n<e.end})[0]||s);for(var f=a(n-s.start-s.delay,0,s.duration)/s.duration,l=isNaN(f)?1:s.easing(f),d=s.to.strings,p=s.round,h=[],v=s.to.numbers.length,g=void 0,y=0;y<v;y++){var b=void 0,M=s.to.numbers[y],w=s.from.numbers[y]||0;b=s.isPath?X(s.value,l*M):w+l*(M-w),p&&(s.isColor&&y>2||(b=Math.round(b*p)/p)),h.push(b)}var k=d.length;if(k){g=d[0];for(var O=0;O<k;O++){d[O];var C=d[O+1],B=h[O];isNaN(B)||(g+=C?B+C:B+" ")}}else g=h[0];G[o.type](u.target,o.property,g,u.transforms),o.currentValue=g,e++}}function I(n){x[n]&&!x.passThrough&&x[n](x)}function T(n){var e=x.duration,r=x.delay,l=e-x.endDelay,d=O(n);x.progress=a(d/e*100,0,100),x.reversePlayback=d<x.currentTime,t&&function(n){if(x.reversePlayback)for(var e=c;e--;)B(n,t[e]);else for(var r=0;r<c;r++)B(n,t[r])}(d),!x.began&&x.currentTime>0&&(x.began=!0,I("begin")),!x.loopBegan&&x.currentTime>0&&(x.loopBegan=!0,I("loopBegin")),d<=r&&0!==x.currentTime&&P(0),(d>=l&&x.currentTime!==e||!e)&&P(e),d>r&&d<l?(x.changeBegan||(x.changeBegan=!0,x.changeCompleted=!1,I("changeBegin")),I("change"),P(d)):x.changeBegan&&(x.changeCompleted=!0,x.changeBegan=!1,I("changeComplete")),x.currentTime=a(d,0,e),x.began&&I("update"),n>=e&&(u=0,x.remaining&&!0!==x.remaining&&x.remaining--,x.remaining?(o=i,I("loopComplete"),x.loopBegan=!1,"alternate"===x.direction&&M()):(x.paused=!0,x.completed||(x.completed=!0,I("loopComplete"),I("complete"),!x.passThrough&&"Promise"in window&&(s(),f(x)))))}return x.reset=function(){var n=x.direction;x.passThrough=!1,x.currentTime=0,x.progress=0,x.paused=!0,x.began=!1,x.loopBegan=!1,x.changeBegan=!1,x.completed=!1,x.changeCompleted=!1,x.reversePlayback=!1,x.reversed="reverse"===n,x.remaining=x.loop,t=x.children;for(var e=c=t.length;e--;)x.children[e].reset();(x.reversed&&!0!==x.loop||"alternate"===n&&1===x.loop)&&x.remaining++,P(x.reversed?x.duration:0)},x.set=function(n,e){return R(n,e),x},x.tick=function(n){i=n,o||(o=i),T((i+(u-o))*rn.speed)},x.seek=function(n){T(O(n))},x.pause=function(){x.paused=!0,C()},x.play=function(){x.paused&&(x.completed&&x.reset(),x.paused=!1,_.push(x),C(),U||en())},x.reverse=function(){M(),x.completed=!x.reversed,C()},x.restart=function(){x.reset(),x.play()},x.reset(),x.autoplay&&x.play(),x}function tn(n,e){for(var r=e.length;r--;)x(n,e[r].animatable.target)&&e.splice(r,1)}return"undefined"!=typeof document&&document.addEventListener("visibilitychange",function(){document.hidden?(_.forEach(function(n){return n.pause()}),nn=_.slice(0),rn.running=_=[]):nn.forEach(function(n){return n.play()})}),rn.version="3.2.0",rn.speed=1,rn.running=_,rn.remove=function(n){for(var e=Z(n),r=_.length;r--;){var t=_[r],a=t.animations,o=t.children;tn(e,a);for(var u=o.length;u--;){var i=o[u],c=i.animations;tn(e,c),c.length||i.children.length||o.splice(u,1)}a.length||o.length||t.pause()}},rn.get=N,rn.set=R,rn.convertPx=I,rn.path=function(n,e){var r=i.str(n)?g(n)[0]:n,t=e||100;return function(n){return{property:n,el:r,svg:$(r),totalLength:q(r)*(t/100)}}},rn.setDashoffset=function(n){var e=q(n);return n.setAttribute("stroke-dasharray",e),e},rn.stagger=function(n,e){void 0===e&&(e={});var r=e.direction||"normal",t=e.easing?v(e.easing):null,a=e.grid,o=e.axis,u=e.from||0,c="first"===u,s="center"===u,f="last"===u,l=i.arr(n),d=l?parseFloat(n[0]):parseFloat(n),p=l?parseFloat(n[1]):0,h=C(l?n[1]:n)||0,g=e.start||0+(l?d:0),m=[],y=0;return function(n,e,i){if(c&&(u=0),s&&(u=(i-1)/2),f&&(u=i-1),!m.length){for(var v=0;v<i;v++){if(a){var b=s?(a[0]-1)/2:u%a[0],x=s?(a[1]-1)/2:Math.floor(u/a[0]),M=b-v%a[0],w=x-Math.floor(v/a[0]),k=Math.sqrt(M*M+w*w);"x"===o&&(k=-M),"y"===o&&(k=-w),m.push(k)}else m.push(Math.abs(u-v));y=Math.max.apply(Math,m)}t&&(m=m.map(function(n){return t(n/y)*y})),"reverse"===r&&(m=m.map(function(n){return o?n<0?-1*n:-n:Math.abs(y-n)}))}return g+(l?(p-d)/y:d)*(Math.round(100*m[e])/100)+h}},rn.timeline=function(n){void 0===n&&(n={});var r=rn(n);return r.duration=0,r.add=function(t,a){var o=_.indexOf(r),u=r.children;function c(n){n.passThrough=!0}o>-1&&_.splice(o,1);for(var s=0;s<u.length;s++)c(u[s]);var f=k(t,w(e,n));f.targets=f.targets||n.targets;var l=r.duration;f.autoplay=!1,f.direction=r.direction,f.timelineOffset=i.und(a)?l:A(a,l),c(r),r.seek(f.timelineOffset);var d=rn(f);c(d),u.push(d);var p=J(u,n);return r.delay=p.delay,r.endDelay=p.endDelay,r.duration=p.duration,r.seek(0),r.reset(),r.autoplay&&r.play(),r},r},rn.easing=v,rn.penner=h,rn.random=function(n,e){return Math.floor(Math.random()*(e-n+1))+n},rn});
+				var pathEls = document.querySelectorAll('path');
+
+//animation from https://codepen.io/juliangarnier/pen/ZeEpgd
+svgRes();
+for (var i = 0; i < pathEls.length; i++) {
+  var pathEl = pathEls[i];
+  var offset = anime.setDashoffset(pathEl);
+  pathEl.setAttribute('stroke-dashoffset', offset);
+  anime({
+    targets: pathEl,
+    strokeDashoffset: [offset, 0],
+    duration: anime.random(5000, 7000),
+    delay: anime.random(0, 1000),
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutSine',
+    autoplay: true
+  });
+}
+
+var r =0;
+function svgRes(){
+	
+	if($(window).width() < 1200)
+	{
+		document.getElementById('svgid').setAttribute('transform','rotate(90)');
+		r =1;
+	}else if(r===1){
+		document.getElementById('svgid').setAttribute('transform','rotate(0)');
+		document.getElementById('svgid').setAttribute('viewBox','0 0 1100 800');
+		r=0;
+	}
+
+	if($(window).width() < 463)
+	{
+		document.getElementById('svgid').setAttribute('viewBox','120 -500 1000 1100');
+		return;
+	}
+
+	if($(window).width() < 607)
+	{
+		document.getElementById('svgid').setAttribute('viewBox','100 -400 1000 1100')
+		return;
+	}
+	
+	if($(window).width() < 1200)
+	{
+		document.getElementById('svgid').setAttribute('viewBox','500 -100 100 800');
+	}
+	
+}
+			</script>
+</body>
+
+</html>
